@@ -1,0 +1,16 @@
+.stage{
+    width: 300px;
+    height: 300px;
+    perspective: 1600px;
+    perspective-origin: 50% -240px;
+    -webkit-perspective: 1600px;
+    -webkit-perspective-origin: 50% -240px;
+}
+figure{
+    width: 300px;
+    height: 300px;
+    display: block;
+    position: absolute;
+    background-color: blue;
+    transform: rotateY('45deg') translateZ(-100px) rotateX('10deg');
+}
